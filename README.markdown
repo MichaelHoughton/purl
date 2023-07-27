@@ -1,7 +1,7 @@
 Purl
 ====
 
-Purl is a simple Object Oriented URL manipulation library for PHP 7.2+
+Purl is a simple Object Oriented URL manipulation library for PHP 8.1.  This is a fork of ecomailcz/purl which doesn't work for PHP 8.1 - this package solves that.
 
 [![Build Status](https://secure.travis-ci.org/jwage/purl.png?branch=master)](http://travis-ci.org/jwage/purl)
 [![Scrutinizer Quality Score](https://scrutinizer-ci.com/g/jwage/purl/badges/quality-score.png?s=7e0e1d4b5d7f6be61a3cd804dba556a0e4d1141d)](https://scrutinizer-ci.com/g/jwage/purl/)
@@ -14,7 +14,7 @@ Purl is a simple Object Oriented URL manipulation library for PHP 7.2+
 The suggested installation method is via [composer](https://getcomposer.org/):
 
 ```sh
-composer require ecomailcz/purl
+composer require michaelhoughton/purl
 ```
 
 Using Purl
