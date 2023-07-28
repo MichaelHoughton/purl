@@ -124,7 +124,7 @@ abstract class AbstractPart implements ArrayAccess
     /**
      * @param mixed $key
      */
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function offsetExists($key): bool
     {
         $this->initialize();
@@ -137,7 +137,7 @@ abstract class AbstractPart implements ArrayAccess
      *
      * @return mixed
      */
-    #[ReturnTypeWillChange]
+    #[\ReturnTypeWillChange]
     public function offsetGet($key)
     {
         return $this->get($key);
